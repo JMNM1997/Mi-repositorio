@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="on"> 
+    <h1>Pide lo que te apetezca</h1>
+    Seleccione el numero de hamburguesas que desees:
+    <ul>
+            <li>Hamburguesa completa:   <input type="number" name="nombredelacaja" placeholder="0" min="0" max="10"> </li>
+            <li>Hamburguesa de pollo:   <input type="number" name="nombredelacaja" placeholder="0" min="0" max="10"> </li>
+            <li>Hamburguesa vegetariana:   <input type="number" name="nombredelacaja" placeholder="0" min="0" max="10"> </li>
+            <li>Hamburguesa doble:   <input type="number" name="nombredelacaja" placeholder="0" min="0" max="10"> </li>
+          </ul>
+    Escribe las modificaciones o preferencias sobre el pedido:
+
+   <p> <textarea name="comentarios" rows="10" cols="40">Si el pepinillo no es para ti dínoslo.</textarea> </p>
+   <hr />
+   <h2>Datos de contacto</h2>
+         Nombre: </br>
+         <input type="text" name="nombre" placeholder="Nombre">
+    </br>Apellidos: </br>
+    <input type="text" name="apellidos"  placeholder="Apellidos">
+    </br>Teléfono: </br>
+    <input type="text" name="telefono" placeholder="Teléfono">
+    </br>Correo electrónico: </br>
+    <input type="email" name="@hamburguesería.com">
+    </br>¿Eres mayor de edad?
+    <select>
+        <option value="volvo">Sí</option>
+        <option value="saab">No</option>
+      </select>
+    <hr />
+    <input type="checkbox" name="info" value="Uno" checked> Quiero recibir información sobre ofertas<br>
+    <input type="checkbox" name="condiciones" value="Dos"> Acepto las condiciones de uso y servicio<br>
+    <hr />
+    <button type="reset" value="Reset">Borrar</button>
+    <button type="submit" value="Submit">Aceptar</button>
+   </form>
+</body>
+</html>
