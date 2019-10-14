@@ -1,0 +1,41 @@
+input:invalid {
+    background-color: yellow;
+}
+
+select {
+    border-radius: 15px;
+ }
+
+.crear {
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: none;
+    background-color: yellow;
+    box-shadow: 2px 2px 10px red;
+ }
+
+ #dificultad:checked::after  {
+    background-image: url(https://image.flaticon.com/icons/svg/1136/1136964.svg);
+    width: 150px;
+    height: 150px;
+    content: '';
+    background-position-x: 50px;
+    background-position-y: 0px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+ }
+
+body{
+    font-family: "Grenze";
+}
+
+
+input[type="submit"] {
+    background-color:yellow;
+    font-family: "Grenze";
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px red ;
+}

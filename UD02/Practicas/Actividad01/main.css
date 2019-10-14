@@ -1,31 +1,57 @@
-ul {
-    background-color: #d3d3d3;
-    padding-top: 0px;
-    padding-left: 0px;
-    float: left;
-    padding-bottom: 0px;
-    margin: 10px 0px;
-    width: 100%;
-    padding-top: 0px;
-}
-
-ul LI {
-    padding-right: 2px;
-    display: inline;
-    padding-left: 10px;
-    float: left;
-    padding-bottom: 30px;
-    width: 30%;
-    padding-top: 2px;
-    
-}
-
-ul li a{
-    text-decoration: none;
-    color:black;
-}
-
 body{
     background-color: #d3d3d3;
     
 }
+ul {
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif")
+  }
+
+
+body{
+      background-color: #d3d3d3;
+  }
+  
+  ul li a{
+      text-decoration: none;
+      color: black;  
+  }
+  
+  
+  ul li{
+      list-style: none;
+      padding-right: 2px;
+      padding-left: 10px;
+      float: left;
+      padding-bottom: 20px;
+      width: 35%;
+      
+      
+      
+  }
+  
+  li:nth-child(2) {
+      list-style-image: url("images/plus.png");
+    }
+  
+    li:nth-child(3) {
+      list-style-image: url("images/shopping-cart.png");
+      
+    }
+  
+  li:nth-child(4) {
+      list-style-image: url("images/rate-star-button.png");
+      
+  }
+  
+    li:nth-child(5) {
+      list-style-image: url("images/pdf.png");
+      
+    }
+  
+    li:nth-child(6) {
+      list-style-image: url("images/search.png");
+    }
+  
+    li:nth-child(7) {
+      list-style-image: url("images/shield.png");
+    }
