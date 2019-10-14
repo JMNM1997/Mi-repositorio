@@ -1,0 +1,27 @@
+h2:first-child{
+color:#e6005c;
+
+}
+h2:nth-child(2){
+    color:#e6005c;
+
+}
+h2::first-letter{
+    color:red;
+}
+
+li:nth-child(3){
+    color:green;
+
+}
+li:hover:nth-child(2n+1)::before {
+    content: "impares";
+  }
+
+li:hover:nth-child(2n)::after {
+    content: "pares";
+  }
+
+li{
+    list-style: none;
+}
