@@ -1,0 +1,105 @@
+body{
+    font-family: "Amatic SC";
+}
+header{
+    background-color: #c6c4c4;
+    overflow: auto;
+
+    background-image: url(https://image.flaticon.com/icons/svg/1136/1136964.svg);
+    content: '';
+    background-position-x: 990px;
+    background-position-y: 25px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+  
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    width:150px;
+    height:30px;
+    padding:5px 1px;
+    
+    text-align:center;
+    float: right;
+
+    
+    
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(135, 180, 104);
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+
+li:nth-child(1){
+    position: absolute;
+    left: 950px;
+}
+
+li:nth-child(2){
+    position: absolute;
+    left: 1070px;
+}
+li:nth-child(3){
+    position: absolute;
+    left: 1225px;
+}
+
+
+
+.modulo:nth-child(2n){
+
+    background-color: #c6c4c4;
+}
+
+
+article{
+    
+    width: 40%;
+    
+    
+}
+
+.modulo{
+    
+    
+    width: 29%;
+    
+    float: left;
+    
+}
+
+@media (max-width:700px){
+    header{
+    background-color: #c6c4c4;
+    overflow: auto;
+
+    background-image: url(https://image.flaticon.com/icons/svg/1136/1136964.svg);
+    content: '';
+    background-position-x: 250px;
+    background-position-y: 25px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 30px;
+    }
+}
