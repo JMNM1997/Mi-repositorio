@@ -97,3 +97,18 @@ h6 {
     box-shadow: 5px 10px #272727;
     border: 10%;
 }
+
+
+#SealOfApproval {
+    overflow: auto;
+    content: '';
+
+    background-image: url(./cthulhu_approval.gif);
+
+    
+    background-position-x: 1200px;
+    background-position-y: 10px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    height: 300px;
+}
