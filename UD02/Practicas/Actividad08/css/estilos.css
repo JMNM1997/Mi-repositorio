@@ -1,0 +1,249 @@
+
+html{
+    box-sizing: border-box;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+
+*{
+        margin: 0;
+        padding: 0;
+}
+
+.titulo {
+
+    height: 40%;
+    width: 70%;
+    float: left;    
+}
+
+.redes_sociales{
+float: right;
+width: 20%;
+height: 70px;
+margin-top: 30px;
+color:white;
+}
+
+
+#foto0_5 {
+    width: 20%;
+    height: 20%;
+    margin-left: 40px;
+}
+
+#foto1 {
+    width: 10%;  
+    height: 22%;
+    color:white;
+   
+}
+#telef {
+    display:inline-block;
+    
+}
+#contenedor_1{
+    background-image: linear-gradient(to left top, rgba(55,185,30,0.83),rgba(25,59,240,0.83)), url(../imgs/8d1b4afb-0601-4d28-b378-39cfce660775.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    margin-top: -20px;
+    height: 800px;
+    min-height: 600px;
+    
+}
+
+#texto{
+    margin-left: 40px;
+    color: #fff;
+    width:60%;
+    font-size: 20px;
+    
+}
+#formulario{
+    background-color: white;
+    padding: 20px 1em;
+    color:black;
+    float:right;
+    width:20%;
+    margin-top:-280px;
+    margin-right: 50px;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="button"]{
+    display: inline-block;
+    background-color: #008000;
+    color:white;
+    width: 80%;
+    height: 40px;
+    margin: 20px auto;
+    border: none;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+input[type="text"], input[type="email"]{
+    display: inline-block;
+    width: 92%;
+    height: 45px;
+    padding: 0 1em;
+    margin: 5px 0;
+    border: 1px solid white;
+}
+
+#contenedor_2{
+    text-align: center;
+    height: 400px;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 30px;
+}
+#contenedor_2 i{
+    color:#13a3db;
+    font-size: 2.5rem;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 40px 0;
+    width:170px;
+    height: 100px;
+    margin-bottom: 30px;
+    line-height:100px; 
+    text-align:center;
+    margin-top: 50px;
+}
+#lista{
+
+    width: max-content;
+}
+
+
+.lista p { 
+    font-size: 1.10rem;
+    font-weight: 500px;
+    margin-bottom: 12px; 
+}
+#contenedor_3{
+    background-color: rgba(167, 152, 173, 0.479);
+    padding: 40px 0;
+}
+#texto_contenedor3 {
+    margin-left: 20px;
+
+}
+#contenedor_3 input{
+    width: 20%;
+}
+
+video{
+    flex-basis: 40%;
+    width: 40%;
+    height: 100%;
+    align-self: flex-start;
+}
+#texto_contenedor3 {
+
+    float: left;
+    width: 50%;
+}
+#contenedor_4{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    
+}
+#contenedor_4 a {
+    color:blue;
+    width:25%;
+    
+}
+#contenedor_4 h3 {
+    vertical-align:middle;
+    margin: auto;
+    width:40%;
+    
+}
+
+.persona img{
+    width: 100%;
+}
+.persona p{
+    font-size: 0.9rem;
+    padding: 12px 2em;
+}
+.persona i{
+    font-size: 1.5rem;
+    color: #107ba7;
+    margin: 0 0.2em;
+}
+.persona h3{
+    align-self: center;
+}
+
+.persona {
+    float: right;
+    width: 20%;
+    height:20%;
+    margin: 20px 0.5em;
+    box-shadow: 2px 5px 15px #ccc9c9;
+    padding-bottom: 30px;
+    
+}
+#contenedor_5{
+    background-image: linear-gradient(to left top, rgba(16, 123, 167, 0.8),rgba(16, 123, 167, 0.8)), url(../imgs/fondo_inferior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    min-height: 330px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#contenedor_5 a {
+    display: block;
+    background-color: #37b81e;
+    color:white;
+    text-decoration: none;
+    padding: 15px 3em;
+}
+
+#pie{
+    overflow: hidden;
+    background-color: rgb(29, 28, 28);
+}
+
+.opciones_pie{
+    float: left;
+}
+.opciones_pie li{
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 12px 0 0;
+}
+.opciones_pie li a{
+    color: #c0bcbc;
+    text-decoration: none;
+    padding-right: 1.5em;
+}
+
+.texto_pie{
+    float: right;
+    color: #c0bcbc;
+    padding-top: 8px;
+}
