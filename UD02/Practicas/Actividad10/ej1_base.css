@@ -1,0 +1,96 @@
+.container{
+    position: relative;
+}
+.caja{
+  width: 180px;
+  height: 180px;
+  background-color: #30B037;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+.caja1{
+  background-color: red;
+  transition: background-color 1s linear;
+  -webkit-transition: background-color 1s linear;
+}
+.caja1:hover{
+  background-color: blue;
+}
+.caja2{
+  background-color: pink;
+  transition: font-size 1s linear;
+  -webkit-transition: font-size 1s linear;
+}
+.caja2:hover{
+  font-size: 30px;
+}
+.caja3{
+  background-color: rgba(14, 82, 50, 0.486);
+  transition: color 1s linear;
+  -webkit-transition: color 1s linear;
+
+}
+.caja3:hover{
+  color:blue;
+}
+.caja4{
+  background-color: rgba(30, 41, 148, 0.74);
+  transition: line-height 1s linear;
+  -webkit-transition: line-height 1s linear;
+}
+.caja4:hover{
+  line-height:400px;
+}
+.caja5{
+  background-color: rgb(green);
+  border-radius: 0px;
+  transition: border 1s linear;
+  -webkit-transition: border 1s linear;
+}
+.caja5:hover{
+  border-radius: 50px;
+}
+.caja6{
+  background-color: rgba(255, 255, 0, 0.562);
+  transition: 1s linear;
+  -webkit-transition: 1s linear;
+}
+.caja6:hover{
+  box-shadow: 10px 10px 10px 2px rgba(14, 82, 50, 0.486);
+  -webkit-box-shadow:10px 10px 10px 2px rgba(14, 82, 50, 0.486);
+}
+.caja7{
+  background-color: orangered;
+  transition: 1s linear;
+  -webkit-transition: 1s linear;
+}
+.caja7:hover{
+  opacity:0.5;
+}
+.caja8{
+  background-color:grey;
+  transition: 1s linear;
+  -webkit-transition: 1s linear;
+}
+.caja8:hover{
+  border-style: solid;
+}
+.caja9{
+  background-color: rgba(35, 37, 35);
+  transition: 1s linear;
+  -webkit-transition: 1s linear;
+}
+.caja9:hover{
+  margin:100px;
+}
+.caja10{
+  background-color: black;
+}
+.caja10:hover{
+  padding: 30px;
+}

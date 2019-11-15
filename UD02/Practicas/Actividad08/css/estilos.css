@@ -247,3 +247,20 @@ video{
     color: #c0bcbc;
     padding-top: 8px;
 }
+
+ /* Aplicar los siguientes estilos cuando el tamaño del viewport se encuentre en un rango de 961-1199 */
+ @media screen and (min-width:961px) and (max-width:1199px) {
+.contenedor{
+    width:90%;    
+    }
+}
+
+/*Emplear el inspector para establecer el tamaño de la ventana (660-959). */
+
+@media screen and (min-width:400px) and (max-width:800px) {
+    .contenedor{
+        width:  90%;    
+        }
+}
+
+/* Emplear el inspector para establecer el tamaño de la ventana (659).*/
