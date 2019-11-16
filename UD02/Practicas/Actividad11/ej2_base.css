@@ -17,17 +17,21 @@ li a{
 .menu.servicios {
 
     border-top: yellow 0.3em solid;
+    color: white;
 }
 .menu.proyectos {
     border-top: green 0.3em solid;
+    color: white;
 
 }
 .menu.recursos {
     border-top: red 0.3em solid;
+    color: white;
 
 }
 .menu.contacto {
     border-top: purple 0.3em solid;
+    color: white;
 
 }
 
@@ -51,7 +55,6 @@ li a{
     content: attr(data-title);
     width: 100%;
     background: black;
-    color: wheat;
 }
 
 
