@@ -1,0 +1,88 @@
+ul li{
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+    
+}
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+li a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+    transition:  1s linear;
+
+    
+}
+article {
+    width: 60%;
+}
+#video {
+    float:right;
+    width:30%;
+    height: 300px;
+    margin-top: -320px; 
+    padding: 20px;
+}
+video {
+    width: 100%;
+}
+#buscador {
+    margin-top: -120px;
+}
+.redes_sociales{
+    float: right;
+    width: 22%;
+    height: 70px;
+    
+    
+    color:white;
+    }
+i{
+    width: 40px;
+}
+#encabezado {
+    background-color:white();
+    color:white;
+    height: 100px;
+    
+}
+
+form {
+    float: right;
+}
+html {
+    background: linear-gradient(to bottom, grey, white);
+}
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#999;
+ }
+
+ img {
+     width: 13%;
+     height: 13%;
+     padding: 20px;
+     transition:  1s linear;
+     
+ }
+ img:hover{
+     border: 1px solid black;
+ }
+ a:hover{
+    
+    border: 1px solid black;
+ }
+ #imagenes {
+
+    width:70%;
+    margin-left: 400px;
+    padding: 20px;
+ }
