@@ -1,0 +1,23 @@
+.row{
+    padding-bottom: 5px; 
+}
+#uno{
+    background-color: red; 
+    height: 40px;
+    
+}
+
+#dos{
+    background-color: blue;
+    height: 40px;
+    
+    
+}
+
+#tres{
+    background-color: green;
+    height: 40px;
+    margin-top: 5px;
+    
+}
+
