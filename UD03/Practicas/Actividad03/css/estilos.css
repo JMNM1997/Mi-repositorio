@@ -1,6 +1,7 @@
 #uno{
     background-color: green;
     
+    
 }
 #dos {
     background-color: rgb(104, 94, 139);
@@ -20,3 +21,8 @@ background-color: aqua;
 #siete{
     background-color: rgb(19, 104, 8);
 }
+.container {
+    padding-left:30px;
+    padding-right:30px;
+}
+
