@@ -1,0 +1,101 @@
+#presentacion {
+  background-color: rgb(92, 184, 180);
+  text-align: center;
+  color: white;
+  margin: 0px 0 20px 0;
+  padding: 50px;
+}
+#destinos {
+background-color: #0054b3;
+  text-align: center;
+  color: white;
+  margin: 0px 0 20px 0;
+  padding: 20px;
+}
+#contact{
+  background-color: rgb(15, 0, 102);
+  text-align: center;
+  color: white;
+  margin: 0px 0 20px 0;
+  padding: 50px;
+}
+img {
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2em;
+width: 60%;
+}
+.myNavbar{
+background-color: rgb(56, 158, 161);
+font-weight: bold;
+color: white ;
+position: fixed;
+z-index: 1000;
+width: 100%;
+}
+.nav{
+  background-color: rgb(24, 17, 88);
+  font-weight: bold;
+  text-align: center;
+  color: white ;
+}
+
+
+.redes_sociales{
+  float: right;
+  
+}
+i{
+  font-size: 30px;
+}
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+  }
+
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:red;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: #e74c3c;
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  text-decoration:none;
+  }
+
+#mitabla{
+  background-color: white;
+}
+#mithead{
+  background-color: rgb(57, 68, 161);
+}
