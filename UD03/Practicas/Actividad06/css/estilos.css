@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+html, body {
+    height: 100%;
+    font-family: 'Lato', sans-serif !important;
+}
+
+#content {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?dpr=1.25&auto=format&fit=crop&w=1199&h=1799&q=80&cs=tinysrgb&crop=) no-repeat fixed center;
+    background-size: cover;
+}
+.row {
+    margin-top: -70px;
+    padding: 70px;
+}
+
+hr {
+    width: 55% !important;
+    border-top: 1px solid white !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.nav-link.active {
+    background-color: transparent !important;
+    border-bottom-color: #f8f9fa !important;
+}
+
+h1{
+    font-size: 5em !important;
+    font-weight: 700 !important;
+}
+
+h1, h3 {
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.95),
+                 1px 6px 10px rgba(0, 0, 0, 0.4),
+                 1px 6px 15px rgba(0, 0, 0, 0.1) !important;
+}
