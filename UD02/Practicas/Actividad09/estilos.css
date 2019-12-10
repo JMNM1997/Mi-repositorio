@@ -95,3 +95,18 @@
     width: 20px;
     position: absolute;
 }
+
+#imag{
+    width: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+}
+
+h1{
+    color:black
+}
+
+p{
+    color:black
+}

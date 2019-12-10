@@ -1,0 +1,98 @@
+/* Estilos generales de la página */
+html, body{
+    height: 100%; 
+ }
+ /* Modificar el modelo de cajas de CSS */
+ html{
+     box-sizing: border-box
+ }
+ *, *::before, *::after{
+     box-sizing: inherit
+ }
+ /* Reseteo de márgenes y padding */
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+    font-family: 'Lato', sans-serif;
+ }
+ .container{
+     width: 90%;
+     margin: 0 auto
+ }
+
+ /*Cabecera (1c) */
+ #logo{
+    float: left;
+}
+#ListaCabecera{
+    float: right;
+    list-style: none;
+    
+}
+
+header {
+    padding: 1rem;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.nav li {
+
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+  }
+li a{
+    text-decoration:none;
+    color:black
+}
+li a:hover{
+    border-bottom: 1px solid #C00;
+ }
+ li:nth-child(5) {
+    border: solid red 1px;
+
+  }
+  li:nth-child(5):hover {
+    background-color: red;
+    color:white;
+
+  }
+/*
+ul{
+    list-style-type: none;
+    text-align: center;
+ }
+li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+ header {
+    padding: 1rem;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  */
