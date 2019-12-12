@@ -57,18 +57,7 @@ li a{
     text-decoration:none;
     color:black
 }
-li a:hover{
-    border-bottom: 1px solid #C00;
- }
- li:nth-child(5) {
-    border: solid red 1px;
 
-  }
-  li:nth-child(5):hover {
-    background-color: red;
-    color:white;
-
-  }
 
 #seccionUno{
   height: 400px;
@@ -77,38 +66,80 @@ li a:hover{
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  padding:30px;
+/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+
 }
 
+#seccionDos{
+    height: 400px;
+    width: 90%;
+    margin:30px;
+    padding-left: 80px;
+    
+    
+}
 
-
+#seccionTres{
+    height: 400px;
+    width: 90%;
+    background-image: linear-gradient(to left top, rgba(28, 27, 39, 0.329) 30%,rgba(29, 35, 36, 0.842)), url(../images/food-table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin:70px;
+    margin-top: 120px;
+    background-attachment: fixed;
+    
+    
+  }
 #divUno{
   height:200px;
   width: 45%;
   margin:0px auto;
   font-size:48px;
   color:yellow;
-  border:1px red solid;
   display: flex;
   align-self: center;
 
-}
 
-#cajaa{
+}
+#divTres{
+    height:200px;
+    width: 45%;
+    margin:0px auto;
+    font-size:40px;
+    color:white;
+    display: flex;
+    align-self: center;
+    
+    
+  
+  }
+
+#cajaDivisor{
   margin-left: auto;
   width: 20%;
   margin-right: auto;
   font-size: 16px;
+  padding-bottom: 20px;
+  
 }
 
 hr{
-  border-top: 1px solid red;
-  width: 40%;
-  margin-right: auto;
-  margin-left: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    width: 80px;
+    margin-left: 30%;
+
 }
 #divDos{
   display: flex;
   flex-flow: wrap;
+  
+
 }
 #caja1{
   flex-basis: 60;
@@ -116,6 +147,9 @@ hr{
 
 #caja2{
   flex-basis: 40%;
+
+  padding-left: 40px;
+  
 }
 #divCuatro{
   display: flex;
@@ -126,6 +160,7 @@ hr{
   margin: 20px 0.5em;
   padding-bottom: 35px;
   text-align: center;
+  box-shadow: 1px 1px 1px gray;
 }
 .card img{
   width: 100%;
@@ -137,4 +172,60 @@ hr{
 
 }
 
+h1{
+    margin:30px;
+}
 
+#divCinco{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+  }
+
+.card2{
+    margin: 20px 5.5em;
+    padding-bottom: 35px;
+    text-align: center;
+    border: 1px solid gray;
+    transition: box-shadow 1s linear;
+    -webkit-transition: box-shadow 1s linear;
+    
+  }
+.card2 ul{
+    margin: 20px 0.5em;
+    padding-bottom: 35px;
+    text-align: center;
+    width:280px;
+    
+    
+  }
+.card2 li{
+    list-style: none;
+    padding-bottom: 25px;
+    border-bottom: 0.5px solid rgb(182, 180, 180);
+    
+}
+
+.price{
+    background-color: rgb(207, 204, 204);
+}
+
+i{
+    color:green;
+}
+#p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2:hover{
+    box-shadow: 6px 6px 6px gray;
+}
+
+.package-header{
+    font-size: 20px;
+}
+#seccionCinco{
+    background-color: rgb(247, 240, 240);
+}
