@@ -4,48 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilos.css">
-    <script src="https://kit.fontawesome.com/9e0f83f7d5.js" crossorigin="anonymous"></script>
+    <title>Responsive Website-Dental Center-2019</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
-  
-      <section class="header">
-          <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><img id ="imag" src="./Imagenes/logo2.jpg"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ml-auto text-right">
-                    <li class="nav-item">
-                      <a class="nav-link active-home" href="#">Principal</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contactanos</a>
-                    </li>
-                  </ul>
+        <main id="main"> 
+               <!--dark-light mode-->
+               <!--section all-->
+               <section id="section-all">   
+                   
+                <!-- Header -->  
+                <header class="header">
+                 <div class="nav-container">
+                     <nav class="nav-checkbox">
+                         <a href="#" class="nav-logo">Conciertos 2020</a>
+                         <input type="checkbox" id="tab-nav" class="tab-nav">
+                         <label for="tab-nav" class="tab-nav-label"><i class="fas fa-bars"></i></label>
+                         <label for="tab-nav" class="tab-nav-label"><i class="fas fa-times"></i></label>
+                         <ul class="tab-content">
+                             <li><a class="active" href="#home">Principal</a></li>
+                             <li><a href="#services">Servicios</a></li>
+                             <li><a href="#about-us">Sobre Nosotros</a></li>
+                             <li><a href="#contact-us">Contacto</a></li>
+                         </ul>
+                     </nav>
+                 </div>
+               </header>  
+               
+              <!-- section -->
+              <!-- section home -->
+              <section id="home">
+                <div class="home-container">
+                   <div class="home-content">
+                    <div class="home-content-inner">
+                       <h1>Conciertos y festivales más populares</h1>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum alias ea, unde temporibus assumenda quasi perspiciatis quod recusandae officiis veritatis voluptate nesciunt sint natus esse. Natus sapiente tenetur at, cupiditate.</p>
+                       <a href="#contact-us"><button id="home-btn" type="submit">Contacto</button></a>
+                    </div>
+                   </div>
+                   <img src="./Imagenes/principal.jpeg">
                 </div>
-              </nav>
-              
-              <div class="row banner">
-                  <div class="col-md-6">
-                      <h1>Compra las mejores peliculas!<br>Ahora con una <span id="hero">OFERTA LIMITADA</span></h1>
-                      <p>Paga un precio minusculo a cambio de disponer siempre tus peliculas favoritas en la mejor</p>
-                      <a href="#" class="express-btn">Alquilar película</a>
-                  </div>
-                  <div class="col-md-6">
-                      <img src="http://www.pngall.com/wp-content/uploads/2016/05/Spider-Man-PNG-Picture.png" class="img-fluid">                
-                  </div>            
-              </div>        
-          </div>
-      </section>
-  
-
-
+               </section>
+               
+               <!-- section services -->
+               <section id="services">
+                   <div class="div-container">
+                       <h1>Zonas habilitadas</h1>
+                       <div class="container">
+                         <div class="container-inner">
+                            <div class="icon"><i class="fas fa-lock"></i></div>
+                            <h2>Madrid</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor consequatur aliquam odit distinctio hic itaque, aliquid, est voluptas rem officiis voluptatum, neque. Culpa alias doloremque officiis placeat quam beatae reprehenderit cumque a dolor minima libero laboriosam facere quaerat perferendis provident possimus aperiam voluptatibus, mollitia repudiandae. Ad quos ipsa quas, sunt!</p> 
+                         </div>
+                         <div class="container-inner">
+                            <div class="icon"><i class="fas fa-lock"></i></i></div>
+                            <h2>Barcelona</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor consequatur aliquam odit distinctio hic itaque, aliquid, est voluptas rem officiis voluptatum, neque. Culpa alias doloremque officiis placeat quam beatae reprehenderit cumque a dolor minima libero laboriosam facere quaerat perferendis provident possimus aperiam voluptatibus, mollitia repudiandae. Ad quos ipsa quas, sunt!</p> 
+                         </div>
+                         <div class="container-inner">
+                            <div class="icon"><i class="fas fa-lock"></i></i></div>
+                            <h2>Bilbao</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor consequatur aliquam odit distinctio hic itaque, aliquid, est voluptas rem officiis voluptatum, neque. Culpa alias doloremque officiis placeat quam beatae reprehenderit cumque a dolor minima libero laboriosam facere quaerat perferendis provident possimus aperiam voluptatibus, mollitia repudiandae. Ad quos ipsa quas, sunt!</p> 
+                         </div>
+                       </div>
+                   </div>
+               </section>
+                  
+                   <!-- section about-us -->
+                   <section id="about-us">
+                    <div class="div-container">
+                     <h1>Nuestro Staff</h1>
+                     <div class="card-container">
+                         <div class="card-inner">
+                            <img src="./Imagenes/1.png">
+                            <h2>Josema Martinez</h2>
+                            <h4>Propietario del recinto y cordinador general</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit magnam id nobis nisi qui totam molestias, quis incidunt sunt quisquam?</p>
+                            <div class="social-media">
+                                <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+                                <a href=""><i class="fab fa-twitter-square fa-2x"></i></a>
+                                <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                            </div>
+                         </div>
+                         <div class="card-inner">
+                            <img src="./Imagenes/3.png">
+                            <h2>Manuel Espejo</h2>
+                            <h4>Atención al cliente</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit magnam id nobis nisi qui totam molestias, quis incidunt sunt quisquam?</p>
+                            <div class="social-media">
+                                <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+                                <a href=""><i class="fab fa-twitter-square fa-2x"></i></a>
+                                <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                            </div>
+                         </div>
+                         <div class="card-inner">
+                            <img src="./Imagenes/3.png">
+                            <h2>Antonio Balbin</h2>
+                            <h4>Técnico general del sonido</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit magnam id nobis nisi qui totam molestias, quis incidunt sunt quisquam?</p>
+                            <div class="social-media">
+                                <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+                                <a href=""><i class="fab fa-twitter-square fa-2x"></i></a>
+                                <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                            </div>
+                         </div>
+                     </div>
+                    </div>
+                   </section>
+                   
+                    <!-- Seccion contacto -->
+                    <section id="contact-us">
+                       <div class="div-container">
+                           <h1>Contacto</h1>
+                           <div class="contact-us-container">
+                               <form class="input-container">
+                                   <div class="input-inside">
+                                       <input type="text" class="input" required placeholder="Nombre">
+                                       <label class="input-label">Nombre</label>
+                                   </div>
+                                   <div class="input-inside">
+                                       <input type="text" class="input" required placeholder="Email">
+                                       <label class="input-label">Email</label>
+                                   </div>
+                                   <div class="input-inside">
+                                       <textarea type="text" class="input" required placeholder="Mensaje" rows="4"></textarea>
+                                       <label class="input-label">Mensaje</label>
+                                   </div>
+                                   <button type="submit" id="btn-contact-form"><span>Enviar</span></button>
+                               </form>
+                               </div>
+                           </div>
+                         </div>
+                       </section>
+                   
+                    <!-- footer -->
+                    <footer id="footer">
+                        <div class="footer">
+                            <div class="footer-c">
+                                <a href="" class="social"><i class="fab fa-twitter-square fa-2x"></i></a>
+                                <a href="" class="social"><i class="fab fa-facebook-square fa-2x"></i></a>
+                                <a href="" class="social"><i class="fab fa-instagram fa-2x"></i></a>
+                                <a href="#" class="back-to-top"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
+                            </div>
+                        </div>
+                        <p class="p-copyright">Copyright 2019&copy; All rights reserved - José Miguel Navarrete Martínez</a></p>
+                    </footer>
+                </section>   
+               </main> 
 </body>
 </html>
