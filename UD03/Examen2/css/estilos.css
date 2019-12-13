@@ -229,3 +229,119 @@ i{
 #seccionCinco{
     background-color: rgb(247, 240, 240);
 }
+
+#seccionSexta{
+  height: 400px;
+  width: 90%;
+  display: flex;
+  align-content: center;
+
+
+}
+#addressBox{
+
+margin-left: 420px;
+}
+
+#formulario{
+  display: flex;
+  flex-flow: column;
+}
+
+footer{
+  background-color: blueviolet;
+  height: 100px;
+  display: flex;
+}
+
+#pieDePagina{
+display: flex;
+justify-content: center;
+
+}
+i{
+  font-size: 50px;
+}
+
+small{
+display: flex;
+align-self:flex-end;
+justify-content: center;
+}
+
+/* Aplicar los siguientes estilos cuando el tamaño del viewport se encuentre en un rango de 960px - 1199px */
+@media screen and (min-width:0) and (max-width:978px) {
+  img{display: none;
+  }
+}
+/* Aplicar los siguientes estilos cuando el tamaño del viewport sea igual o menor que 959px */
+@media screen and (max-width:959px) {
+  #intro{
+      flex-flow: column wrap;
+  }
+  h1{
+      font-size: 3.3rem;
+  }
+  #descripcion{
+      flex-basis: 100%;
+      padding: 0 0 0 0;
+      flex-grow: 0;
+  }
+  article > section:nth-child(2){
+      padding: 20px 0;
+  }
+  #seccionDos{
+      flex-flow: column wrap;
+  }
+  .col{
+      padding: 30px 0;
+  }
+  #seccionTres{
+      flex-flow: column wrap;
+  }
+  #seccionTres div{
+      flex-basis: 100%;
+      padding-right: 0;
+  }
+  #seccionTres a{
+      padding: 12px 0;
+      width: 100%;
+      text-align: center;
+  }
+  video{
+      flex-basis: 100%;
+      width: 100%;
+  }
+  article > section:nth-child(4){
+      padding: 20px 0 0;
+  }
+  #seccionCuatro{
+      flex-flow: column;
+  }
+  #seccionCinco{
+      text-align: center;
+  }
+}
+/* Aplicar los siguientes estilos cuando el tamaño del viewport se encuentre inferior a 659px */
+@media screen and (max-width:659px) {
+  #logo, #infoContacto{
+      width: 100%;
+      text-align: center;
+      margin: 5px auto;
+  }
+  #pieDePagina{
+      text-align: center;
+  }
+  .nav{
+      float: none;
+  }
+  .nav li{
+      display: block;
+      margin: 20px 0;
+  }
+  .copyright{
+      float: none;
+      border-top: 1px solid #3e3e3b;
+      margin-top: 30px;
+  }
+}
