@@ -1,0 +1,38 @@
+
+  #EjercicioPuzzle {
+      width: 450px;
+      background: black;
+      color: white;
+      padding: 20px;
+      overflow: hidden;
+      margin-top: 200px;
+      margin: 20px auto;
+  }
+  
+  #EjercicioPuzzle img {
+      float: left;
+      padding: 1px;
+      width: 98px;
+      height: 98px;
+  }
+  #puzzle {
+    background: white;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 10px;
+}
+
+#contenedorPiezas{
+    background: black;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.pieza {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
