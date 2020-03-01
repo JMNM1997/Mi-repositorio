@@ -1,13 +1,13 @@
 
 function start(e) {
-  e.dataTransfer.effecAllowed = 'move'; // Define el efecto como mover (Es el por defecto)
-  e.dataTransfer.setData("Text", e.target.id); // Coje el elemento que se va a mover
+  e.dataTransfer.effecAllowed = 'move'; 
+  e.dataTransfer.setData("Text", e.target.id); 
   e.target.style.opacity = '0.4'; 
 }
 
 
 function end(e){
-  e.target.style.opacity = ''; // Restaura la opacidad del elemento           
+  e.target.style.opacity = '';           
   e.dataTransfer.clearData("Data");           
 }
 
